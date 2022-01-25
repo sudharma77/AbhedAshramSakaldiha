@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+width: 100%;
+height: 100hw;
+background-image: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.411)) ,url(photos/a2.jpg);
+background-position: center;
+background-size: cover;
+
+}
+.nav1{
+    height: 12%;
+}
+.row{
+    display: flex;
+    height: 88hw;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+
+}
+p{
+    color: #fff;
+}
+button{
+    width: ;
+}
+.card{
+    width: 300px;
+    height: 230px;
+    display:inline-block;
+    border-radius: 10px;
+    padding:5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(102.jpg);
+    background-position: center;
+    transition:transform 0.5s;
+
+}
+.card1{
+    background-image: url(photos/kina1.jpg) ;
+    
+    
+}
+.card2{
+    background-image: url(photos/1666.jpg);
+}.card3{
+    background-image: url(photos/09.jpg);
+}.card4{
+    background-image: url(photos/ab1.jpg);
+}
+
+.card:hover{
+    transform:translateX(-10px);
+}
+.card p{
+    text-shadow: 0 0 15px #fff;
+    font-size: 8px;
+}
+h5{
+    color: aliceblue;
+}
